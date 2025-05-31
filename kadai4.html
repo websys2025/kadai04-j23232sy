@@ -76,7 +76,7 @@
             
             // 課題4-2. ここにコードを書く
             // 商品表の作成
-            for (let i = 0; i < item_list.length-1; i++) {
+            for (let i = 0; i < item_list.length; i++) {
                 itemArea.innerHTML += `<tr><td>${item_list[i].name}</td><td>${item_list[i].price}</td><td id="itemstock${item_list[i].id}">${item_list[i].stock}</td><td><button type="button" id="button${item_list[i].id}">購入</button></td></tr>`;
             }
             // クリックイベント時の購入処理の設定
